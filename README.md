@@ -51,3 +51,5 @@ The core portfolio dashboard is situated in the Main Sheet, which consists the d
 3. **Historical Performance** (To compare Prices of two different stocks) : Line Chart
 
 ## 🖼️ Project Snapshot
+
+![Image Alt](https://github.com/yuktamyadav/Excel-Equity-Portfolio-Dashboard/blob/a33128ab993c3622b1cb5922ce6a640e3efc304b/Equity%20Portfolio%20Dashboard.png)
