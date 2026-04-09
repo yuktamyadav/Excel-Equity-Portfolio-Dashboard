@@ -9,10 +9,11 @@ Recently I built a financial data analytics dashboard which can be used to analy
 The dashboard was built using the following tools and technologies:
 
 - **Excel** – Main platform used for data analysis, report and dashboard building
-- **Data Visualizations** – To visualize stock portfolio, gain or loss and historical performance.
-- **Charts** – To visualize the data in the Liquidations Database.
-- **Data Validation** – Used for a drop-down filter for Stock Lookup and Comparison.
+- **Data Visualizations** – To visualize stock portfolio, gain or loss and historical performance
+- **Charts** – To visualize the data in the Liquidations Database
+- **Data Validation** – Used as a drop-down filter for Stock Lookup and Comparison
 - **File Formats** – `.xlsx` for development and `.png` for dashboard previews
+- **Stock Ticker** – Utilized for compiling several data atrributes for a particular stock
 
 ## 🗄️ Dataset
 
@@ -23,12 +24,14 @@ The dataset represents a particular individual's equity asset holdings or liquid
 
 ## 💡 Features / Highlights
 
+The core portfolio dashboard is situated in the Main Sheet, which consists the data for Current Stock Holdings, sourced out from the Transactions Table in the Transactions Sheet, using Stock Ticker. It has various key attributes for a live stock holding which are mentioned below. Apart from this, The chart visualizations as well as the Data Validation dialogue also exists on the same sheet. There's an additional sheet named Charting, which consists of the Historical Comparison chart for two different equities. This sheet contains historical price data of a stock for a selected period of month, which is consolidated using the STOCKHISTORY and EDATE Functions along with the Ticker Symbol.
+
 ### 💱 The Dashboard contains Stock Data from the following American Stock Exchanges -
 
 1. **NASDAQ** :  National Association of Securities Dealers Automated Quotations
 2. **NYSE** : New York Stock Exchange
 
-### 💲 Key Data Attributes for Stock Holdings -
+### 💲 Key Data Attributes for Current Stock Holdings -
 
 1. Company/Equity
 2. Ticker
@@ -36,12 +39,12 @@ The dataset represents a particular individual's equity asset holdings or liquid
 4. Quantity of Shares
 5. Price
 6. Equity Market Value
-7. Breakdown
+7. Breakdown in %
 8. Daily Change in Holding's Value
 9. Gain/Loss
 10. 52 Week High/Low
 
-📊  Analytical Visualizations -
+### 📊 Analytical Visualizations -
 
 1. **Portfolio Breakdown** : Pie Chart
 2. **Gain/Loss** : Clustered Column Chart
